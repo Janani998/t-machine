@@ -1,0 +1,64 @@
+.transaction-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sent{
+    background-color: rgba(240, 166, 166, 0.952);
+    color : rgb(216, 67, 67);
+}
+
+.amount-data{
+    color :rgb(128, 122, 122);
+    font-size: 14px;
+}
+
+.box-content{
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 4px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.received{
+    background-color: rgb(149, 236, 149);
+    color : #0b5e0b;
+    
+    
+}
+
+.pending{
+    background-color: rgb(247, 201, 117);
+    color: rgb(255, 167, 5);
+}
+
+.logo{
+    padding: 10px;
+    background-color: palegoldenrod;
+    width :10%;
+}
+
+h5{
+    margin: 2px;
+}
+
+.date-content{
+    color : rgb(165, 162, 162);
+    font-size: 12px;
+}
+
+.box{
+    width : 20%;
+    margin: 4px;
+    text-align: right;
+}
+
+.name-box{
+    width : 50%;
+    margin: 4px;
+    text-align: left;
+}
